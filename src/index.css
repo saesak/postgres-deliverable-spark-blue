@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.diceCardContainer {
+  height: 5vw;
+  margin: auto;
+  border: 1px solid black; 
+  padding: 1vw;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.button {
+  width: 10vw;
+  height: 5vw;
+  margin: auto;
+  padding: 3vw;
+}
