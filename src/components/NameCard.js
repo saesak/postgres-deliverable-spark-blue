@@ -1,10 +1,10 @@
 import React from 'react'
 import '../index.css'
 
-export default function DiceCard(randomNumber) {
+export default function NameCard(randomNumber, characterNames) {
     return (
         <div className='diceCardContainer'>
-            <p>Dice roll came out to be: {randomNumber}</p>
+            <p>{characterNames} rolled a {randomNumber}!</p>
         </div>
     )
 }
