@@ -6,7 +6,7 @@ import NameCard from './components/NameCard.js'
 export default function App() {
 
     function getNameCard() {
-        Axios.get('http://localhost:5000')
+        Axios.get('http://localhost:3256')
         .then(function (response) {
             console.log('response successfully received, response below')
             console.log(response)
@@ -23,7 +23,7 @@ export default function App() {
     }
 
     function getAll() {
-        Axios.get('http://localhost:5000/getAll')
+        Axios.get('http://localhost:3256/getAll')
         .then(function (response) {
             console.log('response successfully received, response below')
             console.log(response)
